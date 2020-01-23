@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	font-style: normal;
+	line-height: 1.2;
+	font-weight: normal;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.wrapper {
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Header start*/
+
+.header__logo-link {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: right;
+
+	color: #FFFFFF;
+}
+
+.header__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.header__list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.header__item {
+	margin-right: 82px;
+}
+
+.header__item:last-child{
+	margin-right: 2px;
+}
+
+.header__link {
+	font-size: 18px;
+	line-height: 24px;
+	color: white;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active {
+	opacity: .75;
+}
+
+/*Header end*/
+
+/*intro start*/
+
+.intro {
+	height: 100vh;
+	background: url("../logo.jpg") no-repeat center;
+	background-size: cover;
+	padding-top: 91px;
+	color: white;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	flex-wrap: wrap;
+}
+
+.intro__box {
+	flex-direction: column;
+	height: 456px;
+	background: rgba(196, 196, 196, 0.5);
+	border-radius: 94px;
+	padding-top: 67px;
+}
+
+.intro__watch {
+	width: 389px;
+	height: 389px;
+	margin-left: 103px;
+	margin-right: 0;
+	display: inline-block;
+	background: url(../Watch.png) no-repeat center;
+	background-size: cover;
+}
+
+.intro__title {
+	position: relative;
+	top: -100px;
+	font-family: Roboto;
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 42px;
+	margin-left:  110px;
+	width: 326px;
+}
+
+.intro__title h1 {
+	font-size: 36px;
+}
+
+.intro__title p {
+	font-size: 18px;
+}
+
+/*intro end*/
+
+/*white start*/
+
+.white{
+	height: 600px;
+	background: rgb(230,230,230);
+}
+
+/*white end*/
+
+/*footer start*/
+
+.footer {
+	height: 200px;
+	background: rgb(200,200,200);
+}
+
+.contact {
+	display: inline;
+	font-family: Roboto;
+	position: relative;
+	top: 30px;
+	left: 30px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+	color: rgb(25,25,25);
+}
+
+/*footer end*/
